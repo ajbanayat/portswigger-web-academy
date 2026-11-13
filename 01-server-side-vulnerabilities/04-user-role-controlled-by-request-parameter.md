@@ -27,3 +27,4 @@ Here we are again! Now, we can delete "carlos" once again.
 ![we've accessed the admin panel](./images/04-user-role-controlled-by-request-parameter/admin-panel-cookie.png)
 
 ## Analysis
+The application makes an attempt at checking authorization for the admin panel, but it was insufficient this time since we were able to manipulate the value to whatever we want. Real world systems need to have more robust methods of authentication and authorization to protect against hackers.
