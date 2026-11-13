@@ -28,4 +28,4 @@ Here we can delete carlos! With that, this lab is over.
 
 ## Analysis
 
-This lab takes us through a vertical escalation vulnerability, where users can gain access to functionality they should not have permission to access.
+This lab takes us through a vertical escalation vulnerability, where users can gain access to functionality they should not have permission to access. In real applications, websites must authenticate users to verify their identities before checking if they are actually authorized to view specific resources.
