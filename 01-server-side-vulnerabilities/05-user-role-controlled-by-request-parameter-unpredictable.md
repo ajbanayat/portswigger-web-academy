@@ -35,3 +35,4 @@ Let's head back to our account page and replace our user ID with carlos's user I
 ![carlos's account page](./images/05-user-role-controlled-by-request-parameter-unpredictable/carlos-account.png)
 
 ## Analysis
+This is another example of an authorization flaw that is easily exploitable by bad actors. The page does not check that we are the correct user before loading for us. The site should have checked not only that we were logged in, but also that we were the correct user.
